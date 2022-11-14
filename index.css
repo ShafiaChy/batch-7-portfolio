@@ -24,6 +24,7 @@ header{
     width: 80%;
     margin: 0px auto;
     padding-top: 15px;
+    margin-bottom: 30px;
 }
 span{
     color:#FD6E0A;
@@ -105,8 +106,8 @@ ul.navbar{
 .about{
   text-align: center;
   background-color: #FFF8F3;
-  width:70%;
-  padding: 100px;
+  width:60%;
+  padding: 70px;
   border-radius:5px
    
 }
@@ -169,7 +170,4 @@ justify-content: center;
 
 .card-div img,h4,p{
     margin-bottom: 30px;
-}
-fa-solid{
-    color: black;
 }
