@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{margin: 0;   font-family: 'Open Sans', sans-serif;}
+header{
+    background-color: #FFF8F3;
+    background-image: url('./images/Hero\ Image\ Background.png');
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-position-y:bottom ;
+    background-position-x: right;
+
+}
+.header-container{
+    background-image: url('./images/Developer.png');
+    background-repeat: no-repeat;
+    background-size: 5% 90%;
+    background-position-y:center;
+    margin: 0 15px;
+    
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 15px;
+}
+span{
+    color:#FD6E0A;
+}
+nav h1{
+    font-size: 45px;
+  
+}
+
+li{
+    list-style: none;
+}
+ul.navbar{
+    width: 25%;
+  
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar button{
+    background-color:#FD6E0A;
+    width: 100px;
+}
+.button-style{
+    padding: 10px;
+    border:0;
+    cursor: pointer;
+    color:white;
+    border-radius:2px;
+}
+
+/* banner css */
+
+.banner{
+    display: flex;
+    width: 100%;
+  
+    align-items: center;
+    justify-content: space-between;
+  
+    
+}
+.banner-title{
+    width: 40%;
+    display: flex;
+    margin:0 auto;
+    
+}
+.banner-title h1, p{
+    margin-bottom: 20px;
+}
+
+.banner-image img{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  
+ 
+  
+}
+
+.banner-button{
+    width: 55%;
+    display: flex;
+    justify-content: space-between; 
+}
+.about-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+/* about css */
+.about{
+  text-align: center;
+  background-color: #FFF8F3;
+  width:70%;
+  padding: 100px;
+  border-radius:5px
+   
+}
+table{
+    width: 80%;
+    margin: 0 auto;
+}
+
+table th{
+    color:#474747;
+    font-weight:normal;
+}
+table td{
+    
+    font-weight:bold;
+}
+
+.about h1,p,table{
+    margin-bottom: 30px;
+}
+
+/* What I do section */
+.what-I-do-section{
+display: flex;
+justify-content: center;
+}
+.what-I-do-container{
+    width:70%;
+   
+}
+.what-I-do-container h1,p{
+    margin-bottom: 30px;
+}
+.my-experience{
+  display: flex;
+  justify-content: center;
+   
+}
+.my-experience div{
+    width: 70%;
+    text-align: center;
+     
+  }
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 100px;
+    
+}
+
+.card-div{
+    height:320px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    display: flex;
+    padding: 30px;
+    
+}
+
+.card-div img,h4,p{
+    margin-bottom: 30px;
+}
+fa-solid{
+    color: black;
+}
