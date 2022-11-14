@@ -207,3 +207,22 @@ justify-content: center;
 .summary-of-resume-container .card-div p{
     margin-bottom: 20px;
 }    
+
+
+/* footer section */
+footer{
+    margin-top: 50px;
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: center;
+}
+.footer-section{
+    width: 70%;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
