@@ -227,7 +227,9 @@ justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }    
-
+.amazing-work-container img{
+    width: 80%;
+}
 
 /* footer section */
 footer{
@@ -245,4 +247,24 @@ footer{
     gap: 20px;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+/* media query for responsive */
+@media only screen and (max-width:576px) {  
+    .footer-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (max-width:768px) {
+    .summary-of-resume-container .card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }  
+    .amazing-work-container .card-container{
+        grid-template-columns: repeat(1, 1fr);
+    } 
+}
+@media only screen and (min-width: 1168px) {
+    .amazing-work-container img{
+        width: 300px;
+    }
 }
