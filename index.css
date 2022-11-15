@@ -58,6 +58,7 @@ ul.navbar{
     cursor: pointer;
     color:white;
     border-radius:2px;
+    margin-right: 20px;
 }
 
 /* banner css */
@@ -65,7 +66,6 @@ ul.navbar{
 .banner{
     display: flex;
     width: 100%;
-  
     align-items: center;
     justify-content: space-between;
   
@@ -91,9 +91,9 @@ ul.navbar{
 }
 
 .banner-button{
-    width: 55%;
+    width: 55vw;
     display: flex;
-    justify-content: space-between; 
+   
 }
 .about-section{
     display:flex;
@@ -112,7 +112,7 @@ ul.navbar{
    
 }
 table{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -250,21 +250,195 @@ footer{
 }
 
 /* media query for responsive */
-@media only screen and (max-width:576px) {  
+@media only screen and (max-width:576px) { 
+    header{
+    
+        background-image: url('./images/Hero\ Image\ Background.png');
+       
+       
+    }
+    .header-container{
+        background-image: none; 
+    }
+     .navbar-container{
+        display: none;
+     }
+     .banner{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px ;
+        
+     }
+     .banner-title{
+        
+       width: 90vw;
+       margin-bottom: 20px;
+        
+    }
+    .banner-button{
+        width: 80vw;
+        display: flex;
+         
+    }
+    .button-style{
+        padding: 10px;
+        border:0;
+        cursor: pointer;
+        color:white;
+        margin-right: 10px;
+        border-radius:2px;
+    }
+    .about-section{
+
+        height: 50vh;
+        margin-bottom: 80px;
+    }
+    
+    .about{
+        padding: 20px;
+        width: 100vw;
+    }
+    .about p{
+        text-align: justify;
+       
+         
+      }
+      table{
+        width: 100%;
+      }
+     td{
+        font-size: 12px;
+      }
+      .what-I-do-container{
+        width:100%;
+       
+    }
+      .what-I-do-container p{
+        text-align: justify;
+        margin-bottom: 50px;
+    }
+    .what-I-do-container .card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .what-I-do-container .card-div{
+        height:320px;
+        box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+        border-radius: 5px;
+        display: flex;
+        padding: 30px;
+     
+        
+    }
+    .summary-of-resume-container .card-container{
+        grid-template-columns: repeat(1, 1fr);
+    } 
+   
+    .amazing-work-container .card-container{
+       
+        grid-template-columns: repeat(1, 1fr);
+    } 
     .footer-container{
         grid-template-columns: repeat(1, 1fr);
     }
 }
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:569px) and (max-width:1167px) {
+    header{
+        background-color: #FFF8F3;
+        background-image: url('./images/Hero\ Image\ Background.png');
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position-y:bottom ;
+        background-position-x: center;
+        
+       
+    }
+    .header-container{
+        background-image: none;
+    }
+     .navbar-container{
+        display: none;
+     }
+     .banner{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px ;
+        
+     }
+     .banner-title{
+        
+       width: 90vw;
+       margin-bottom: 20px;
+        
+    }
+    .banner-button{
+        width: 90vw;
+        justify-content:start
+         
+    }
+    .button-style{
+        
+        margin-right: 15px;
+        
+    }
+    .about-section{
+
+        height: 50vh;
+        margin-bottom: 80px;
+    }
+    
+    .about{
+        padding: 40px;
+        width: 80vw;
+    }
+    .about p{
+        text-align: justify;    
+      }
+      
+      .what-I-do-container {
+        width: 90vw;
+    }
+      .what-I-do-container p{
+        text-align: justify;
+        margin-bottom: 50px;
+    }
+    .what-I-do-container .card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+   
     .summary-of-resume-container .card-container{
-        grid-template-columns: repeat(1, 1fr);
-    }  
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    
     .amazing-work-container .card-container{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     } 
 }
+
 @media only screen and (min-width: 1168px) {
+    .banner-button{
+        width: 65%;
+       margin-right:10px; 
+    }
     .amazing-work-container img{
         width: 300px;
     }
+    .what-I-do-container{
+        width:80%;
+       
+    }
+    .what-I-do-container p{
+       
+        margin-bottom: 50px;
+    }
+    .what-I-do-container .card-div{
+        height:370px;
+       
+        
+    }
+    .amazing-work-container img{
+        width: 300px;
+    }
+    
 }
