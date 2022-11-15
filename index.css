@@ -209,6 +209,26 @@ justify-content: center;
 }    
 
 
+/* amazing works section */
+.amazing-work-section{
+    display: flex;
+    justify-content: center;
+}
+.amazing-work-container{
+    width:70%;   
+}
+.amazing-work-title h1{
+    text-align: center;        
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+.amazing-work-container .card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}    
+
+
 /* footer section */
 footer{
     margin-top: 50px;
